@@ -1,1 +1,6 @@
-console.log('testsddsaascsa');
+function test() {
+	var test = 'foo';
+	console.log( test );
+}
+
+test();
