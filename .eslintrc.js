@@ -30,6 +30,8 @@ module.exports = {
 			"always"
 		],
 		"no-console": "warn",
+		"no-var": "error",
+		"prefer-const": "error",
 		//Unsure if these work
 		"constructor-super": 2,
         "for-direction": 2,

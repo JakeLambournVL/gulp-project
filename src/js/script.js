@@ -1,6 +1,10 @@
+const cond = true;
+
 function test() {
-	var test = 'foo';
-	console.log( test );
+	const test = 'foo';
+	return test;
 }
 
-test();
+if( cond ) {
+	test();
+}
