@@ -37,7 +37,7 @@ function js() {
 
     return src(source)
         .pipe(changed(source))
-		.pipe(gulpESLintNew({ fix: true }))         // Lint files, create fixes.
+		.pipe(gulpESLintNew())         // Lint files, create fixes.
 	    .pipe(gulpESLintNew.fix())                  // Fix files if necessary.
 	    .pipe(gulpESLintNew.format())               // Outputs lint results to the console.
 	    .pipe(gulpESLintNew.failAfterError())

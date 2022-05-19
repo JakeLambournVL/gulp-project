@@ -1,15 +1,13 @@
 module.exports = {
-  parser: "babel-eslint",
-  env: {
-    browser: true,
-    node: true,
-    es6: true,
-    jest: true,
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    sourceType: "module",
+    allowImportExportEverywhere: false,
+    ecmaFeatures: {
+      globalReturn: false,
+    },
+    babelOptions: {
+      configFile: "./eslintrc.json",
+    },
   },
-  extends: [
-    "eslint:recommended",
-  ],
-  rules: {
-    strict: 0,
-  },
-}
+};
