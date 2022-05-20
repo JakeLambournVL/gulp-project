@@ -1,6 +1,8 @@
 # gulp-project
 
-Run<br/>
-<code>npm i</code><br/><br/>
-Then<br/>
+<p>How to run:</p>
+<p>Download node and npm</p>
+<p>Run</p>
+<code>npm i</code><br/>
+<p>Then</p>
 <code>gulp watch</code>
